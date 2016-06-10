@@ -3,8 +3,6 @@ import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 
-import { getPlatform } from 'imports/components/utils/helpers.jsx';
-
 import * as MainActions from 'actions'
 
 import IonItemLink from 'components/IonItemLink';
